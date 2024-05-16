@@ -31,6 +31,6 @@ app.use('/uploads',express.static('uploads'))
 
 
 
-app.use("/home",(req,res)=>{
-    res.send("<h1>Welcome rey")
+app.use("/",(req,res)=>{
+    res.send("<h1>Welcome buddy")
 })
